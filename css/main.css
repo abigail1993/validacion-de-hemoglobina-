@@ -1,0 +1,27 @@
+.center{
+    text-align: center;
+}
+
+.btn-color {
+    background-color:rgb(136, 187, 235);
+    border: 1px solid blue;
+    color: blue;
+    margin: 20px;
+    padding: 10px 2px;
+}
+
+.text-color {
+    color: rgb(58, 58, 116);
+}
+
+input {
+    background-color: rgb(136, 187, 235);
+    width: 70px;
+}
+
+.back {
+    background-color: aliceblue;
+    border: 3px solid rgb(136, 187, 235);
+    height: 250px;
+    width: 600px;
+}
