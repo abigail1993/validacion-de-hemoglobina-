@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nivel de Hemoglobina</title>
+</head>
+<body>
+  <div>
+    <h1>Ingresa tus datos requeridos</h1>
+  </div>
+  <div>
+    <form id="form">
+      <label for="">Ingresa tu edad:</label>
+      <input type="text" id="edad" placeholder="edad"> años.<br>
+      
+
+      <label for="">Genero:</label>
+      <input type="radio"  name="genero" value="femenino">femenino
+      <input type="radio"  name="genero" value="masculino"> masculino<br>
+
+      <label for="">Ingresa tu nivel de hemoglobina:</label>
+      <input type="text" id="nivel" placeholder="el nivel"><br>
+
+      <input type="button" class="btn" onclick="validar()" value="enviar">
+    </form>
+  </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
